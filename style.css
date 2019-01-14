@@ -1,0 +1,30 @@
+body{
+	background-color: #800000;
+}
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border:0;
+	height: 150px;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+#nav-list a{
+	color: #800000;
+	text-align: center;
+	font-size: 25px;
+}
+#phone div{
+	text-align: right;
+	font-size: 15px;
+}
+#phone span{
+	padding-left:10px;
+
+}
+@media (max-width: 991px){
+	li{
+		margin-top: 20px;
+	}
+}

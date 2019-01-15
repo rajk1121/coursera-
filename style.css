@@ -19,6 +19,7 @@ body{
 	text-align: right;
 	font-size: 15px;
 }
+
 #phone span{
 	padding-left:10px;
 
@@ -27,4 +28,56 @@ body{
 	li{
 		margin-top: 20px;
 	}
+
+}
+#jumbatron img{
+	width: 1080px;
+	height: 600px;
+	border-radius: 10px;
+}
+#image{
+	position: relative;
+	height: 250px;
+	width: 350px;
+	margin-top: 10px;
+	background: url('https://tastesbetterfromscratch.com/wp-content/uploads/2018/02/Instant-Pot-Tuscan-Chicken-Pasta-8.jpg') no-repeat;
+	background-position: center;
+	box-shadow: 3px 3px 5px #000000;
+	border-radius: 10px;
+	margin-right: 20px;
+}
+#Special{
+		position: relative;
+	height: 250px;
+	width: 350px;
+	margin-top: 10px;
+	background: url('https://assets.bonappetit.com/photos/5aa9665c275dc52331d9184b/16:9/w_1200,c_limit/pantry-pasta.jpg') no-repeat;
+	background-position: center;
+	box-shadow: 3px 3px 5px #000000;
+	border-radius: 10px;
+	margin-right: 20px;
+
+}
+
+#Special span , #image span, #map span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border-right: 10px;
+	font-size:30px;
+	width:100%;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.8;
+	text-align: center;
+}
+#map{
+		height: 250px;
+	width: 350px;
+	margin-top: 10px;
+	
+	background-position: center;
+	box-shadow: 3px 3px 5px #000000;
+	border-radius: 10px;
+	margin-right: 20px;
 }

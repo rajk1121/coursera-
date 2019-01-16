@@ -58,12 +58,35 @@ body{
 	margin-right: 20px;
 
 }
+iframe{
+	margin-left: -11px;
+	border-radius: 10px;
+}
+#Hours{
+	margin-left: 100px;
+	color: #fff;
+
+}
+
+#Address{
+	margin-left: -100px;
+	color: #fff;
+}
+#Quotes{
+	width: 300px;
+	margin-left: 100px;
+	color: #fff;
+}
+#Address p{
+	color: green;
+}
+
 
 #Special span , #image span, #map span{
 	position: absolute;
-	bottom: 0;
+	bottom: -1px;
 	right: 0;
-	border-right: 10px;
+	border-radius: 10px;
 	font-size:30px;
 	width:100%;
 	background-color: #000;
@@ -71,6 +94,7 @@ body{
 	opacity: 0.8;
 	text-align: center;
 }
+
 #map{
 		height: 250px;
 	width: 350px;
@@ -78,6 +102,9 @@ body{
 	
 	background-position: center;
 	box-shadow: 3px 3px 5px #000000;
-	border-radius: 10px;
+	border-radius: 0px;
 	margin-right: 20px;
+}
+.footer{
+	height: 200px;
 }

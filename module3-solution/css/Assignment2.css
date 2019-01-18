@@ -1,0 +1,31 @@
+body{
+	background-color: #800000;
+}
+#header-nav{
+	background-color: #f6b319;
+	border:none;
+	border-radius: 0;
+}
+
+#logo{
+	background: url('http://turpsonline.com/wp-content/uploads/2017/06/TURPS-LOGO-web-150px.png') no-repeat;
+	height: 150px;
+	width: 150px;
+}
+#collapsable-nav{
+	font-size: 45px;
+}
+#nav-list li{
+	border-radius: 5px;
+	border-color: black;
+}
+#Chicken , #Sushi , #Beef{
+	font-size: 15px;
+	border-style: solid;
+	background-color: #fff;
+	margin-bottom: 45px;
+}
+#Chicken section , #Sushi section , #Beef section{
+	text-align: center;
+	font-size: 40px;
+}

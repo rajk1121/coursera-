@@ -5,10 +5,19 @@ body{
 	background-color: #f6b319;
 	border-radius: 0;
 	border:0;
-	height: 150px;
+	
 }
 .navbar-brand{
-	padding-top: 25px;
+padding-left: 50px;
+}
+#logo-image{
+	background-image: url('http://turpsonline.com/wp-content/uploads/2017/06/TURPS-LOGO-web-150px.png');
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 150px;
+}
+.navbar-brand{
+	padding-top: 0px;
 }
 #nav-list a{
 	color: #800000;
@@ -28,6 +37,10 @@ body{
 	li{
 		margin-top: 20px;
 	}
+
+}
+#nav-list{
+padding-top: 0px; 
 
 }
 #jumbatron img{

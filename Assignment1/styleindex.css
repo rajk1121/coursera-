@@ -1,0 +1,71 @@
+h1{
+	text-align: center;
+}
+@media (min-width:992px ) {
+	div{
+	width: 325px;
+		float: left;
+	margin:10px 50px 50px 50px;
+	background-color: #D3D3D3;
+	padding: 70px 3px 10px 3px;
+}
+section{
+	text-align: center;
+	float: right;
+	background-color: red;
+	width: 200px;
+	clear: left;
+	font-size: 50px;
+	margin-top:-70px; 
+}
+}
+@media (min-width:768px ) and (max-width:991px ){
+	div#Chicken , div#Beef{
+		width: 33%;
+		float: left;
+	margin:10px 50px 50px 50px;
+	background-color: #D3D3D3;
+	padding: 70px 3px 10px 3px;
+}
+section{
+	text-align: center;
+	float: right;
+	background-color: red;
+	width: 200px;
+	clear: left;
+	font-size: 50px;
+	margin-top:-70px; 
+}
+div#Sushi{
+		width: 33%;
+		float: left;
+	margin:10px 50px 50px 50px;
+	background-color: #D3D3D3;
+	padding: 70px 3px 10px 3px;
+}
+section{
+	text-align: center;
+	float: right;
+	background-color: red;
+	width: 200px;
+	clear: left;
+	font-size: 50px;
+	margin-top:-70px; 
+}
+}
+@media (max-width:767px ){
+		div{
+	margin:10px 50px 50px 50px;
+	background-color: #D3D3D3;
+	padding: 70px 3px 10px 3px;
+}
+section{
+	text-align: center;
+	float: right;
+	background-color: red;
+	width: 200px;
+	clear: left;
+	font-size: 50px;
+	margin-top:-70px; 
+}	
+}

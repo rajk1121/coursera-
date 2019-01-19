@@ -11,17 +11,18 @@
 </head>
 <body>
 	<header>
-		<nav id="header-nav" class="navbar navbar-default">
+		<nav id="header-nav" class="navbar navbar-default abcd">
 			<div class="container">
 				<div class="navbar-header">
-					<a class="pull-left" href="Restaraunt.html">
-						<div id="logo-image"></div>
-					</a>
+					<div id="logo-image" class="pull-left visible-md visible-lg" >
+					</div>
 				<div class="navbar-brand ">
 					
 					<a href="Restaraunt.html"><h1 >Sport's Bar And Restaraunt</h1></a>
 					<p>
-						<span>Kosher Certified</span>
+						<span>
+					Kosher Certified
+				</span>
 					</p>
 
 				</div>
@@ -63,52 +64,67 @@
 		</nav>
 	</header>
 
-	<div  class="container img-responsive">
-		<div id="jumbatron">	<img src="https://file.videopolis.com/D/9dc9f4ba-0b2d-4cbb-979f-fee7be8a4198/8485.11521.brussels.the-hotel-brussels.amenity.restaurant-AD3WAP2L-13000-853x480.jpeg"></div>
+	<div id="main-content" class="container ">
+		<div id="jumbatron" class="col-md-12 col-sm-12">
+			<img src="https://file.videopolis.com/D/9dc9f4ba-0b2d-4cbb-979f-fee7be8a4198/8485.11521.brussels.the-hotel-brussels.amenity.restaurant-AD3WAP2L-13000-853x480.jpeg">
+		</div>
+	</div>
+	<div class="container">
 		<div class="row">
-			<div id="image" class="col-md-4"><a href="menucategories.html"><span>Menu</span></a>
-			</div>
-			<div id="Special" class="col-md-4"><a href="#"><span>Special</span>
+			<div class="col-lg-4 col-md-4 col-sm-6">
+			<section  id="Menu">
+				<a href="#menucategories.html">
+					<span>Menu</span>
 				</a>
-			</div>
-			<div  class="col-md-4"><a href="https://goo.gl/maps/SzEj3uHv8as"></a>
-<div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3502.402559365989!2d77.0761463!3d28.6176947!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04c9c68e332f%3A0xb13c2f8f5512541a!2sBite+Bikaner!5e0!3m2!1sen!2sin!4v1547646896247" width="382" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-				<span>Map</span></div>
+			</section>
 		</div>
+		<div class="col-lg-4 col-md-4 col-sm-6">
+			<section id="Special" >
+				<a href="special.html">
+					<span>Special</span>
+				</a>
+				
+			</section>
+		</div>
+		<div class="col-md-4 col-sm-12">
+			<section  id="Map">
+				<a href="https://goo.gl/maps/YKq7oWKza972">
+					<span>Map</span>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.402559649344!2d77.07614631455928!3d28.617694691504315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04c9c68e332f%3A0xb13c2f8f5512541a!2sBite+Bikaner!5e0!3m2!1sen!2sin!4v1547901376731" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-	</div>
-	<br><br><br>
-	
-	</div>
-	<div class="footer" style="background-color: #222;">
-		<div id="Hours" class="col-md-4">
-			<h3>Hours:</h3>
-			<div>Sun-Thurs: 11:15am - 10:00pm
-				<br>
-				Fri: 11:15am - 2:30pm<br>
-			Saturday Closed</div>
+				</a>
+			</section>
 		</div>
-		<div id="Address" class="col-md-4">
-			<h3>Address:</h3>
-			
-			7105 Resisterstown Road
-			<br>
-			Baltimore, MD 21215
-			<p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
-		</div>
-		<div id="Quotes" class="col-md-4">
-			<h3>Reviews</h3>
-			<p>
-				"The best Chinese Restaraunt I've been to! And that's saying a lot, since I've been to many!"
-			</p>
-			<p>
-				"Amazing food! Great service! Couldn't ask for moore! I'll be back again!"
-			</p>
-		</div>
-		
 	</div>
-	<div style="background-color: #222;">
-		<div class="last" style="color: #000; text-align: center;">&copy; Copyright 2018. All Right's Reserveed by David Chu's China Bistro</div>
+	</div>
+	<div class="footer">
+	<div class="container">
+		<div class="row">
+			<section id="Hours" class="col-md-4 col-sm-4">
+				<h2>Hours</h2>
+			Sun-Thurs: 11:15am - 10:00pm<br>
+            Fri: 11:15am - 2:30pm<br>
+            Saturday Closed
+
+			</section>
+			<hr class="visible-xs ">
+			<section id="Address" class="col-md-4 col-sm-4">
+				<h2>Address</h2>
+		    7105 Resisterstown Road <br>
+            Baltimore, MD 21215 <br>
+           <span> * Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</span>
+
+			</section>
+			<hr class="visible-xs">
+			<section id="Reviews" class="col-md-4 col-sm-4">
+				<h2>Reviews</h2>
+				<span>"The best Chinese Restaraunt I've been to! And that's saying a lot, since I've been to many!" <br>
+                "Amazing food! Great service! Couldn't ask for moore! I'll be back again!" </span>
+			</section>
+		</div>
+	</div>
+<br>
+	<p>&copy;Copyright by Sport's Bar And Turf.All Rights Reserved</p>		
 	</div>
 
 

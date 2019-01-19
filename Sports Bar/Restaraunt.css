@@ -5,10 +5,18 @@ body{
 	background-color: #f6b319;
 	border-radius: 0;
 	border:0;
+
 	
 }
 .navbar-brand{
-padding-left: 50px;
+padding-left: 20px;
+}
+.navbar-brand a{
+	width: 100%;
+}
+.navbar-brand p{
+	text-align: left;
+	width:200px;
 }
 #logo-image{
 	background-image: url('http://turpsonline.com/wp-content/uploads/2017/06/TURPS-LOGO-web-150px.png');
@@ -39,85 +47,93 @@ padding-left: 50px;
 	}
 
 }
-#nav-list{
-padding-top: 0px; 
-
-}
 #jumbatron img{
-	width: 1080px;
-	height: 600px;
+	width: 100%;
 	border-radius: 10px;
 }
-#image{
-	position: relative;
-	height: 250px;
-	width: 350px;
-	margin-top: 10px;
-	background: url('https://tastesbetterfromscratch.com/wp-content/uploads/2018/02/Instant-Pot-Tuscan-Chicken-Pasta-8.jpg') no-repeat;
-	background-position: center;
-	box-shadow: 3px 3px 5px #000000;
-	border-radius: 10px;
-	margin-right: 20px;
+#Menu{
+background: url('https://d1u4oo4rb13yy8.cloudfront.net/article/86307-cpxvhizyyr-1523025451.jpg') no-repeat;
+background-position: center;
+position: relative;
+height: 250px;
+margin: 20px 10px;
+
+box-shadow: 5px 5px 5px #000;
+border-radius: 10px;
 }
 #Special{
-		position: relative;
-	height: 250px;
-	width: 350px;
-	margin-top: 10px;
-	background: url('https://assets.bonappetit.com/photos/5aa9665c275dc52331d9184b/16:9/w_1200,c_limit/pantry-pasta.jpg') no-repeat;
-	background-position: center;
-	box-shadow: 3px 3px 5px #000000;
+background: url('https://i.ndtvimg.com/i/2016-06/chinese-625_625x350_81466064119.jpg') no-repeat;
+background-position: center;
+position: relative;
+height: 250px;
+margin: 20px 10px;
+
+box-shadow: 5px 5px 5px #000;
+border-radius: 10px;
+
+}
+#Map{
+background-position: center;
+position: relative;
+height: 250px;
+margin: 20px 10px;
+
+box-shadow: 5px 5px 5px #000;
+border-radius: 10px;
+
+}
+#Menu span , #Special span, #Map span{
 	border-radius: 10px;
-	margin-right: 20px;
+	color: #fff;
+	font-size: 25px;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	background-color: #000;
+	opacity: 0.8;
+	
 
 }
 iframe{
-	margin-left: -11px;
 	border-radius: 10px;
+}
+
+
+
+
+.footer{
+	background-color: #808080;
+	margin-bottom: -10px;
+	
+}
+h2{
+	color: #000;
 }
 #Hours{
-	margin-left: 100px;
 	color: #fff;
-
 }
-
 #Address{
-	margin-left: -100px;
 	color: #fff;
+
 }
-#Quotes{
-	width: 300px;
-	margin-left: 100px;
-	color: #fff;
-}
-#Address p{
+#Address span{
 	color: green;
 }
-
-
-#Special span , #image span, #map span{
-	position: absolute;
-	bottom: -1px;
-	right: 0;
-	border-radius: 10px;
-	font-size:30px;
-	width:100%;
-	background-color: #000;
-	color: #fff;
-	opacity: 0.8;
+#Reviews{
+	color: red;
+}
+p{
 	text-align: center;
 }
-
-#map{
-		height: 250px;
-	width: 350px;
-	margin-top: 10px;
-	
-	background-position: center;
-	box-shadow: 3px 3px 5px #000000;
-	border-radius: 0px;
-	margin-right: 20px;
+@media (max-width: 767px){
+	.footer{
+		text-align: center;
+	}
 }
-.footer{
-	height: 200px;
+@media (max-width: 767px){
+	.navbar-brand{
+
+		height: 90px;
+	}
 }

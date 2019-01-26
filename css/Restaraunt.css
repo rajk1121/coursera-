@@ -76,11 +76,22 @@ border-radius: 10px;
 background-position: center;
 position: relative;
 height: 250px;
-margin: 20px 10px;
+margin: 50px 10px;
 
 box-shadow: 5px 5px 5px #000;
 border-radius: 10px;
 
+}
+#call{
+	font-size: 50px;
+	color:  #f6b319;
+	border-radius: 20px;
+	border-style: solid;
+	margin-bottom: 10px;
+	border-color: #000000;
+	text-align: center;
+	
+	text-decoration: none;
 }
 #Menu span , #Special span, #Map span{
 	border-radius: 10px;
@@ -105,7 +116,7 @@ iframe{
 .footer{
 	background-color: #808080;
 	margin-bottom: -10px;
-	
+	margin-top: 30px;
 }
 h2{
 	color: #000;
@@ -137,3 +148,25 @@ p{
 		height: 90px;
 	}
 }
+#main section{
+	font-size: 20px;
+	font-style: italic;
+	color: orange;
+}
+#d01{
+	background: url('https://www.buffalowildwings.com/globalassets/menuitems/10710001_gardensaladfbl_3-26-18.png?format=jpg&width=900&v=2') no-repeat; 
+	background-position: center;
+	height: 200px;
+	
+}
+.col-md-6 , .col-sm-6 , .col-xs-12{
+	margin-top: 30px;
+	color: pink;
+
+}
+#d01{
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #000000;
+}
+

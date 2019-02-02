@@ -24,6 +24,10 @@ padding-left: 20px;
 	height: 150px;
 	width: 150px;
 }
+#nav-list li:hover{
+	background-color: #ffffff;
+
+}
 .navbar-brand{
 	padding-top: 0px;
 }

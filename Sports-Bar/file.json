@@ -1,0 +1,31 @@
+[
+	{
+		"name" : "Lunch",
+		"photo" : "https://assets.betterbutter.in/386x386/chitra-sendhil1453210035569e39b33b9db.jpg"
+	} ,
+
+	{
+		"name" : "Breakfast",
+		"photo" :"https://www.jimsrestaurants.com/sites/default/files/styles/featured_menu_item/public/menu-item-photo/2017-05/Rustler%27s%20Roundup.jpg?itok=FBpg827d"
+	} ,
+
+	{
+		"name" : "Dinner",
+		"photo" : "https://sallysbakingaddiction.com/wp-content/uploads/2016/05/honey-garlic-shrimp-5.jpg"
+	} ,
+
+	{
+		"name" : "Appetisers",
+		"photo" : "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-cranberry-brie-bites-vertical-2-1540486092.jpg?crop=1xw:1xh;center,top&resize=480:*"
+	} ,
+
+	{
+		"name" : "Snacks",
+		"photo" : "https://mcdonalds.com.au/sites/mcdonalds.com.au/files/Product-Details-Fries-Basket-mobile.jpg"
+	}, 
+
+	{
+		"name" : "Drinks",
+		"photo" : "http://www.weaversliquors.com/index_htm_files/26795.jpg"
+	}
+]

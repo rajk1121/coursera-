@@ -169,4 +169,26 @@ p{
 	border-style: solid;
 	border-color: #000000;
 }
+#mainmenu section{
+	position: relative;
+	margin-bottom: 19px;
+	height: 250px;
+	margin-right: 10px;
+	border-radius: 5px;
+
+} 
+#mainmenu section:hover{
+	border-style: solid;
+	border-color: #ffffff;
+}
+#mainmenu span{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-size: 25px;
+	background-color: #000000;
+	opacity: 0.8;
+	color: #ffffff;
+
+}
 

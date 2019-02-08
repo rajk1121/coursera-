@@ -63,7 +63,7 @@ height: 250px;
 margin: 20px 10px;
 
 box-shadow: 5px 5px 5px #000;
-border-radius: 10px;
+
 }
 #Special{
 background: url('https://i.ndtvimg.com/i/2016-06/chinese-625_625x350_81466064119.jpg') no-repeat;
@@ -73,7 +73,7 @@ height: 250px;
 margin: 20px 10px;
 
 box-shadow: 5px 5px 5px #000;
-border-radius: 10px;
+
 
 }
 #Map{
@@ -83,7 +83,7 @@ height: 250px;
 margin: 50px 10px;
 
 box-shadow: 5px 5px 5px #000;
-border-radius: 10px;
+
 
 }
 #call{
@@ -98,7 +98,7 @@ border-radius: 10px;
 	text-decoration: none;
 }
 #Menu span , #Special span, #Map span{
-	border-radius: 10px;
+	
 	color: #fff;
 	font-size: 25px;
 	position: absolute;
@@ -109,9 +109,6 @@ border-radius: 10px;
 	opacity: 0.8;
 	
 
-}
-iframe{
-	border-radius: 10px;
 }
 
 
@@ -145,8 +142,6 @@ p{
 	.footer{
 		text-align: center;
 	}
-}
-@media (max-width: 767px){
 	.navbar-brand{
 
 		height: 90px;
@@ -173,19 +168,19 @@ p{
 	border-style: solid;
 	border-color: #000000;
 }
-#mainmenu section{
+#main-content section{
 	position: relative;
 	margin-bottom: 19px;
 	height: 250px;
 	margin-right: 10px;
-	border-radius: 5px;
+	
 
 } 
-#mainmenu section:hover{
+#main-content section:hover{
 	border-style: solid;
 	border-color: #ffffff;
 }
-#mainmenu span{
+#main-content span{
 	position: absolute;
 	bottom: 0;
 	width: 100%;

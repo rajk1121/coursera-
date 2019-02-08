@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded",function () {
-	showLoading();
+function start () {
+	
 	var request=new XMLHttpRequest();
 	request.onreadystatechange = function () {
 		// body...
@@ -10,11 +10,11 @@ document.addEventListener("DOMContentLoaded",function () {
 	request.open("GET" , "file.json");
 	request.send();
 	
-});
+};
 function showLoading() {
 	
 	var str = "<img src='../ajax-loader.gif' height=200 width=200>"
-	document.querySelector("#mainmenu").innerHTML = str;
+	document.querySelector("#main-content").innerHTML = str;
 }
 function proceed(request) {
 	var obj=JSON.parse(request.responseText);
@@ -46,5 +46,5 @@ function combine(menusnippet , obj) {
 
 	}
 	fstring=fstring+"</div>";
-	document.querySelector("#mainmenu").innerHTML = fstring;
+	document.querySelector("#main-content").innerHTML = fstring;
 };
